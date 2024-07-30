@@ -1,6 +1,6 @@
 .cart-item {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #f3f1f1;
+  border: 2px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
@@ -9,7 +9,9 @@
 
 .cart-item img {
   max-width: 100%;
-  height: auto;
+  height: fit-content;
+  width: 250px;
+  height: 400px;
 }
 
 .cart-item h2 {
@@ -35,4 +37,11 @@
 
 .cart-item button:hover {
   background-color: #0056b3;
+}
+
+.cart-item-count {
+  width: 40px; /* Меньший розмір інпут-поля */
+  padding: 6px;
+  text-align: center;
+  margin: 10px 0;
 }

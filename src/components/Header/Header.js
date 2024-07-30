@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = () => {
   const { cartItems } = useCart();
-  const cartItemCount = cartItems.length;
+  const cartCount = Object.keys(cartItems).length
   return (
     <header className="header">
       <div className="header-content">
@@ -16,7 +16,7 @@ const Header = () => {
         </h1>
         <Link to="/cart" className="cart-button">
           <img className="cart-icon" src={"/header.png"} alt="Cart" />
-          <span className="cart-count">{cartItemCount}</span>
+          <span className="cart-count">{cartCount}</span>
         </Link>
       </div>
     </header>

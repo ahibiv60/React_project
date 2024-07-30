@@ -1,6 +1,6 @@
-import React from 'react';
-import { useCart } from '../../contexts/CartContext'; // Переконайтесь, що шлях вірний
-import './ProductCard.css';
+import React from "react";
+import { useCart } from "../../contexts/CartContext"; // Переконайтесь, що шлях вірний
+import "./ProductCard.css";
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
