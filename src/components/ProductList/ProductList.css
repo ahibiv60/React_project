@@ -1,0 +1,6 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 стовпці */
+  gap: 16px; /* Відстань між товарами */
+  padding: 16px; /* Відступи навколо сітки */
+}
